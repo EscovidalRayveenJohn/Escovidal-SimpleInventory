@@ -16,4 +16,14 @@ public class Product {
         this.category = category;
         this.status = status;
     }
+
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                ", category=" + category +
+                ", status=" + status +
+                '}';
+    }
 }
